@@ -7,6 +7,10 @@
     "packages/*"
   ],
   "scripts": {
+    "web1:dev": "turbo run dev --filter web1",
+    "web1:build": "turbo run build --filter web1",
+    "web2:dev": "turbo run dev --filter web2",
+    "web2:build": "turbo run build --filter web2",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
